@@ -1,2 +1,2 @@
-# cheat-sheets
-Cheat Sheets: Ruby, RoR, Git, SSH, MySQL etc...
+# Cheat Sheets
+* Git
