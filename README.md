@@ -2,3 +2,4 @@
 * Git
 * MySQL
 * SSH
+* Ubuntu
