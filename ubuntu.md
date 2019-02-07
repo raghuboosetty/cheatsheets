@@ -11,6 +11,12 @@ ls -ld   # permissions, only directories
 # directory size
 du -sh directory # size in MB
 
+# list recursive file sizes of files and directories in a directory
+du --all --human-readable --apparent-size # size in Byte, KB, MB, GB ...
+
+# archives cache size, used to cleaning disk
+du -sh /var/cache/apt/archives
+
 # command to get total disk space( free + available )
 df -h
 df -k
