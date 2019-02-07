@@ -22,7 +22,7 @@ sudo vi ~/.ssh/authorized_keys
 ssh-keygen -t rsa -b 4096 -C "raghuboosetty@gmail.com"
 
 # add the public key to github
-cat ~/.ssh/id_rsa_raghu.pub
+cat ~/.ssh/id_rsa.pub
 # copy the public key and paste it in the SSH of your SVN(Github)
 
 # clone the app
@@ -66,9 +66,10 @@ git clone git@github.com-raghu:raghuboosetty/sample.git
 git config user.name "raghu"
 git config user.email "raghuboosetty@gmail.com"
 
-# Source:
-# https://gist.github.com/jexchan/2351996
+# Source: https://gist.github.com/jexchan/2351996
 ```
+### My detailed blog post: 
+https://raghuror.wordpress.com/2015/10/10/managing-multiple-ssh-keys/
 
 # SSH shortcuts [how to]
 ```sh
