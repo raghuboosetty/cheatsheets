@@ -128,6 +128,8 @@ FROM information_schema.TABLES
 WHERE table_schema = "cape_development"
 AND table_name = "reservations";
 ```
+### My detailed blog post about the table sizes:
+https://raghuror.wordpress.com/2015/10/02/mysql-table-or-schema-size-stats-or-row-counts/
 
 # Granting/Revoking Permissions [ALL] - mysql prompt
 ```sql
