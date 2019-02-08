@@ -29,3 +29,9 @@ sudo apt-get autoclean
 sudo apt-get autoremove
 du -sh /var/cache/apt/archives
 ```
+
+## System Information
+```sh
+sudo apt-get install landscape-common
+landscape-sysinfo
+```
