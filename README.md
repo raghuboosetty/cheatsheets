@@ -18,5 +18,8 @@
 * [Managing multiple SSH keys for cloning applications using Git](../master/ssh.md#managing-multiple-ssh-keys-for-cloning-applications-using-git)
 * [SSH shortcuts](../master/ssh.md#ssh-shortcuts-how-to)
 ### Git
+* [Refresher](../master/git.md#refresher)
+* [Advanced git commands](../master/git.md#advanced)
+* [Move old repository to new subdirectory](../master/git.md#move-old-repository-to-new-subdirectory)
 ### MySQL
 ### Rails
