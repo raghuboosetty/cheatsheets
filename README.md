@@ -6,6 +6,8 @@
 * [Rails](../master/rails.md#rails)
 
 
+# Cheat Sheets Detail
+
 ### Ubuntu
 * [List commands](../master/ubuntu.md#list-commands)
 * [Clean disk space](../master/ubuntu.md#clean-disk-space)
