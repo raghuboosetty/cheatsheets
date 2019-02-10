@@ -1,8 +1,9 @@
-# See known hosts
+# SSH
+## See known hosts
 ```sh
 sudo vi ~/.ssh/known_hosts
 ```
-# SSH to server without password [how to add your public key]
+## SSH to server without password [how to add your public key]
 ```sh
 # copy the public key
 cat ~/.ssh/id_rsa.pub
@@ -16,7 +17,7 @@ sudo vi ~/.ssh/authorized_keys
 # further check with SSH shortcuts(last section) to ease the process of SSH to server
 ```
 
-# Generate new default/root SSH keys
+## Generate new default/root SSH keys
 ```sh
 # create ssh-key pair for git
 ssh-keygen -t rsa -b 4096 -C "raghuboosetty@gmail.com"
@@ -33,7 +34,7 @@ git config user.name "raghu"
 git config user.email "raghuboosetty@gmail.com"
 ```
 
-# Managing multiple SSH keys for cloning applications using Git
+## Managing multiple SSH keys for cloning applications using Git
 ```sh
 # create another ssh-key pair
 ssh-keygen -t rsa -b 4096 -C "raghuboosetty@gmail.com"
@@ -71,7 +72,7 @@ git config user.email "raghuboosetty@gmail.com"
 ### My detailed blog post: 
 https://raghuror.wordpress.com/2015/10/10/managing-multiple-ssh-keys/
 
-# SSH shortcuts [how to]
+## SSH shortcuts [how to]
 ```sh
 mate ~/.ssh/config
 # OR
