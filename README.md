@@ -3,3 +3,4 @@
 * MySQL
 * SSH
 * Ubuntu
+* Rails
