@@ -37,39 +37,38 @@ landscape-sysinfo
 ```
 
 ## Build custom command
-## create a new command : Ubuntu
 Make a bin directory in their home directory<br>
 ```sh 
-$ mkdir ~/bin 
+mkdir ~/bin 
 ```
 Put your custom scripts in there<br>
 ```sh 
-$ mv command-script ~/bin 
+mv command-script ~/bin 
 ```
 Add this to the bottom of your ` ~/.bashrc`<br>
 ```sh
-$ export PATH=$PATH:~/bin
+export PATH=$PATH:~/bin
 ```
 Log back in and out of your terminal<br>
 ```sh 
-$ bash --login
+bash --login
 ```
 
 ### Example
 ```sh
 # create bin directory
-$ mkdir ~/bin
+mkdir ~/bin
 
 # create executable file
-$ sudo vi ~/bin/console
+sudo vi ~/bin/console
 
 # add your commands to it
 ## cd /home/apps/vdate/current && bundle exec rails c production
 
 # make the file executable
-$ sudo chmod +x ~/bin/console
+sudo chmod +x ~/bin/console
 
 # add executable to $PATH
-$ sudo vi ~/.bashrc
+sudo vi ~/.bashrc
 ## export PATH=$PATH:~/bin
 ```
