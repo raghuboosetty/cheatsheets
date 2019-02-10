@@ -1,5 +1,6 @@
+# Git
 
-# Refresher
+## Refresher
 ```sh
 $ git status
 $ git add .
@@ -18,7 +19,7 @@ $ git pull origin <branch>
 $ git push origin <branch>
 ```
 
-# Advanced
+## Advanced
 ```sh
 $ git -m old-branch-name new-branch-name  # rename branch
 $ git branch new-branch-name origin/old-branch-name
@@ -118,7 +119,7 @@ $ cd ..
 $ rm -rf old-repository.$ git # Remove our temporary local repository
 
 ```
-# Move old repository to new subdirectory
+## Move old repository to new subdirectory
 ```sh
 # Assume the current directory is where we want the new repository to be created
 # Create the new repository
