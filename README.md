@@ -24,4 +24,16 @@
 * [Advanced git commands](../master/git.md#advanced)
 * [Move old repository to new subdirectory](../master/git.md#move-old-repository-to-new-subdirectory)
 ### MySQL
+* [Dump and Load MySQL](../master/mysql.md#dump-and-load-mysql---terminalshell)
+* [Basic Commands](../master/mysql.md#basic-commands---mysql-prompt)
+* [Table Row Count](../master/mysql.md#row-count-all-tables---mysql-prompt)
+* [Table/Schema size [KB, MB, GB]](../master/mysql.md#tableschema-size-kb-mb-gb---mysql-prompt)
+* [Granting/Revoking Permissions](../master/mysql.md#grantingrevoking-permissions-all---mysql-prompt)
+* [Slow/General Query Logs](../master/mysql.md#slowgeneral-query-logs)
+* [Flush logs](../master/mysql.md#flush-logs)
+* [Permissions](../master/mysql.md#permissions---shellprompt-access)
+* [Remove MySQL : Mac and Ubuntu](../master/mysql.md#remove-mysql--mac-and-ubuntu)
+* [InnoDB: Resolving Errors](../master/mysql.md#innodb-resolving-errors)
+* [Config file - my.cnf](../master/mysql.md#config-file-mycnf)
+* [Miscellaneous](../master/mysql.md#miscellaneous-info)
 ### Rails
