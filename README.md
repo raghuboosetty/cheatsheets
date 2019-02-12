@@ -1,5 +1,6 @@
 # Cheat Sheets
 * [Ubuntu](../master/ubuntu.md#ubuntu)
+* [Mac](../master/mac.md#mac)
 * [SSH](../master/ssh.md#ssh)
 * [Git](../master/git.md#git)
 * [MySQL](../master/mysql.md#mysql)
