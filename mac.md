@@ -11,7 +11,13 @@
 ^ – Control Key
 
 ## Shortcuts
-open keyboard shortcuts<br>
-Shift + ?<br>
+Open keyboard shortcuts<br>
+**Shift + ?**<br><br>
 Force Quit Applications<br>
-option + command + esc<br>
+**option + command + esc**<br><br>
+Clipboard<br>
+**Cmd-Shift-V**       # Paste Previous<br>
+**Cmd-Option-V**      # Paste Next<br>
+**Cmd-Option-Ctrl-V** # Show History<br><br>
+Chrome<br>
+**shift + fn + delete**   # remove input fields auto-suggest<br>
