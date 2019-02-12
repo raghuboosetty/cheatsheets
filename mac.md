@@ -20,4 +20,11 @@ Clipboard<br>
 **Cmd-Option-V**      # Paste Next<br>
 **Cmd-Option-Ctrl-V** # Show History<br><br>
 Chrome<br>
-**shift + fn + delete**   # remove input fields auto-suggest<br>
+**shift + fn + delete**   # remove input fields auto-suggest<br><br>
+Textmate<br>
+**control + shift + T**   # gives all the list of TODO and FIXME<br>
+**control + G**           # case change<br>
+**command + K**          # git diff(custom)<br>
+**command + T**           # search files<br><br>
+Multiple word select<br>
+**ctrl + W**<br><br>
