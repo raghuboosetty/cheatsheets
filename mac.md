@@ -28,3 +28,17 @@ Textmate<br>
 **command + T**           # search files<br><br>
 Multiple word select<br>
 **ctrl + W**<br><br>
+
+## Commands
+```sh
+# Hide/Show login users
+# https://support.apple.com/en-us/HT203998
+sudo dscl . create /Users/postgres IsHidden 1
+sudo dscl . create /Users/postgres IsHidden 0
+
+# Flush Cache
+dscacheutil -flushcache
+
+# Show hidden files
+defaults write com.apple.Finder AppleShowAllFiles YES
+```
