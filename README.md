@@ -14,6 +14,7 @@
 * [Clean disk space](../master/ubuntu.md#clean-disk-space)
 * [System Information](../master/ubuntu.md#system-information)
 * [Build custom command](../master/ubuntu.md#build-custom-command)
+### Mac
 ### SSH
 * [See known hosts](../master/ssh.md#see-known-hosts)
 * [SSH to server without password](../master/ssh.md#ssh-to-server-without-password-how-to-add-your-public-key)
