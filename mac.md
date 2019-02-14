@@ -14,20 +14,20 @@
 Open keyboard shortcuts<br>
 **Shift + ?**<br><br>
 Force Quit Applications<br>
-**option + command + esc**<br><br>
+**option + command + Esc**<br><br>
 Clipboard<br>
 **Cmd-Shift-V**       # Paste Previous<br>
 **Cmd-Option-V**      # Paste Next<br>
 **Cmd-Option-Ctrl-V** # Show History<br><br>
 Chrome<br>
-**shift + fn + delete**   # remove input fields auto-suggest<br><br>
+**Shift + Fn + Delete**   # remove input fields auto-suggest<br><br>
 Textmate<br>
-**control + shift + T**   # gives all the list of TODO and FIXME<br>
-**control + G**           # case change<br>
-**command + K**          # git diff(custom)<br>
-**command + T**           # search files<br><br>
+**Control + Shift + T**   # gives all the list of TODO and FIXME<br>
+**Control + G**           # case change<br>
+**Command + K**          # git diff(custom)<br>
+**Command + T**           # search files<br><br>
 Multiple word select<br>
-**ctrl + W**<br><br>
+**Ctrl + W**<br><br>
 
 ## Commands
 ```sh
@@ -41,4 +41,7 @@ dscacheutil -flushcache
 
 # Show hidden files
 defaults write com.apple.Finder AppleShowAllFiles YES
+
+# disable spotlight
+sudo mdutil -a -i off
 ```
