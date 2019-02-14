@@ -42,3 +42,4 @@
 * [Config file - my.cnf](../master/mysql.md#config-file-mycnf)
 * [Miscellaneous](../master/mysql.md#miscellaneous-info)
 ### Rails
+* [Generators](../master/rails.md#generators)
