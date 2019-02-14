@@ -14,7 +14,7 @@
 Open keyboard shortcuts<br>
 **Shift + ?**<br><br>
 Force Quit Applications<br>
-**option + command + Esc**<br><br>
+**Option + Command + Esc**<br><br>
 Clipboard<br>
 **Cmd-Shift-V**       # Paste Previous<br>
 **Cmd-Option-V**      # Paste Next<br>
