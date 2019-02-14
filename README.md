@@ -14,6 +14,7 @@
 * [Clean disk space](../master/ubuntu.md#clean-disk-space)
 * [System Information](../master/ubuntu.md#system-information)
 * [Build custom command](../master/ubuntu.md#build-custom-command)
+* [Console color codes](../master/ubuntu.md#console-color-codes)
 ### Mac
 * [Keys](../master/mac.md#keys)
 * [Shortcuts](../master/mac.md#shortcuts)
