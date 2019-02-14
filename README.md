@@ -15,6 +15,9 @@
 * [System Information](../master/ubuntu.md#system-information)
 * [Build custom command](../master/ubuntu.md#build-custom-command)
 ### Mac
+* [Keys](../master/mac.md#keys)
+* [Shortcuts](../master/mac.md#shortcuts)
+* [Commands](../master/mac.md#commands)
 ### SSH
 * [See known hosts](../master/ssh.md#see-known-hosts)
 * [SSH to server without password](../master/ssh.md#ssh-to-server-without-password-how-to-add-your-public-key)
