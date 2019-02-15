@@ -6,6 +6,7 @@
 * [MySQL](../master/mysql.md#mysql)
 * [RVM](../master/rvm.md#rvm)
 * [Rails](../master/rails.md#rails)
+* [Gems](../master/gems.md#gems)
 
 
 # Cheat Sheets Detail
@@ -51,3 +52,5 @@
 * [Temporarily selecting another Ruby or gemset](../master/rvm.md#temporarily-selecting-another-ruby-or-gemset)
 ### Rails
 * [Generators](../master/rails.md#generators)
+### Gems
+* [Create a gem](../master/gems.md#creat-a-gem)
