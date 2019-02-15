@@ -53,4 +53,4 @@
 ### Rails
 * [Generators](../master/rails.md#generators)
 ### Gems
-* [Create a gem](../master/gems.md#creat-a-gem)
+* [Create a gem](../master/gems.md#create-a-gem)
