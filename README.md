@@ -4,6 +4,7 @@
 * [SSH](../master/ssh.md#ssh)
 * [Git](../master/git.md#git)
 * [MySQL](../master/mysql.md#mysql)
+* [RVM](../master/rvm.md#rvm)
 * [Rails](../master/rails.md#rails)
 
 
@@ -42,5 +43,11 @@
 * [InnoDB: Resolving Errors](../master/mysql.md#innodb-resolving-errors)
 * [Config file - my.cnf](../master/mysql.md#config-file-mycnf)
 * [Miscellaneous](../master/mysql.md#miscellaneous-info)
+### RVM
+* [To load rvm with login-bash shell](../master/rvm.md#to-load-rvm-with-login-bash-shell)
+* [Create and use gemset](../master/rvm.md#create-and-use-gemset)
+* [List](../master/rvm.md#list)
+* [Check & install latest udpates](../master/rvm.md#check--install-latest-udpates)
+* [Temporarily selecting another Ruby or gemset](../master/rvm.md#temporarily-selecting-another-ruby-or-gemset)
 ### Rails
 * [Generators](../master/rails.md#generators)
