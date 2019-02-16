@@ -11,7 +11,7 @@ A collection of all my years of work in cheatsheets:
 * [Gems](../master/gems.md#gems)
 
 
-# Cheat Sheets Detail
+# Details
 
 ### Ubuntu
 * [List commands](../master/ubuntu.md#list-commands)
