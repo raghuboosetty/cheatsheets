@@ -33,8 +33,14 @@ du -sh /var/cache/apt/archives
 
 ## System Information
 ```sh
-sudo apt-get install landscape-common
-landscape-sysinfo
+# default system information with model number
+sudo dmidecode | grep -A 9 "System Information"
+# or
+sudo dmidecode | less
+
+# Through landscape software
+sudo apt-get install landscape-common # install
+landscape-sysinfo # view
 ```
 
 ## Build custom command
