@@ -51,6 +51,35 @@ puts a_method
 ### Notes:
   - Some argue that blocks aren't closures in Ruby, since methods can only take one block.
 
+### Examples:
+```ruby
+def counter
+ n = 0
+ puts n
+ return ->(a){ n+= 1 }
+end
+a = counter
+a.call
+a.call
+
+b = counter
+b.call
+a.call
+
+n=0
+proc_obj = ->{ n+= 1 }
+proc_obj.call
+proc_obj.call
+
+n=0
+ ->{ n+= 1 }.call
+ ```
+
+#### References:
+* http://awaxman11.github.io/blog/2013/08/05/what-is-the-difference-between-a-block/
+* https://rubymonk.com/learning/books/4-ruby-primer-ascent/chapters/18-blocks/lessons/64-blocks-procs-lambdas
+
+
 ## Mechanize
 ### Gmail login example
 ```ruby
