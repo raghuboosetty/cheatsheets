@@ -36,6 +36,21 @@ puts a_method
 # 'proc' is a method
 ```
 
+### Differences Summary
+  - Procs are objects, blocks are not
+  - At most one block can appear in an argument list
+  - Lambdas check the number of arguments, while procs do not
+  - Lambdas and procs treat the ‘return’ keyword differently
+  - Lambdas and procs treat array arguments differently
+
+### Advantages:
+  - can pass whole lamda/proc block as a parameter to a method
+  - in Rails, you use them as scopes
+  - Methods are bound to Objects, and Procs are bound to the local variables in scope
+
+### Notes:
+  - Some argue that blocks aren't closures in Ruby, since methods can only take one block.
+
 ## Mechanize
 ### Gmail login example
 ```ruby
