@@ -42,6 +42,33 @@ sudo dmidecode | less
 sudo apt-get install landscape-common # install
 landscape-sysinfo # view
 ```
+## Aliases
+```sh
+# bash profile
+code ~/.bash_profile
+
+# copy/paste your public key in terminal
+alias public_key="cat ~/.ssh/id_rsa.pub"
+
+# Open ssh config
+alias ssh_config="mate ~/.ssh/config"
+
+# Clear app logs(Rails)
+alias rc="rake log:clear"
+alias rtc="rake tmp:clear"
+alias rcc="rake cache:clear"
+alias clear_all="rcc ; rc ; echo -e '\033[0;32mlogs cleared.\033[0m' ; rtc ; echo -e '\033[0;32mtmp cleared.\033[0m'"
+
+# perform Rails rake tasks at once
+alias rake_all="bundle ; rake db:create ; rake db:migrate ; rake db:seed"
+
+alias workspace="cd ~/Workspace/projects/sample_project"
+alias sample_project="workspae ; code ."
+
+# save and exit
+source ~/.bash_profile
+```
+
 
 ## Build custom command
 Make a bin directory in their home directory<br>
